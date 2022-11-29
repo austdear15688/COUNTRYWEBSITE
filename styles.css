@@ -1,0 +1,53 @@
+/*
+
+selector{
+
+    property::-ms-value;
+    property::-ms-value;
+    property::-ms-value;
+}
+
+
+
+tagname ->select all tags of a given type
+classname -> se;ect all tags that have a given class
+tagname.classname -> select ONLY tags that are AlSO a given class
+
+>-. child symbol
+
+tagname>tagmane -> select children of a given type
+    .classname>tagname -> select children of a given type 
+    tagname>.classname -> select children of a given class
+    . classname>.classname -> select children of a given class
+
+*/
+
+.nav{
+   list-style: none;
+   padding-left: 0;
+
+   width: 50%;
+
+   margin: auto;
+
+   text-align: center;
+}
+
+.nav>li{
+border: ridge;
+display: inline-block;
+}
+
+.nav>li>a{
+
+text-decoration: none;
+color: cornflowerblue;
+
+
+
+}
+
+img {
+    width: 50%;
+}
+
